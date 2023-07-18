@@ -9,14 +9,12 @@ Splunk Alert: <br/>
 <img src="https://imgur.com/rdLVB25.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />  
 <h2>Executive Summary</h2>
-The detection occurred on July 18, 2023 at 9:08 AM.  Splunk labeled the detection as Remote Desktop Network Bruteforce.  The rule that was triggered states this search looks for RDP application network traffic and filters any source/destination pair generating more than twice the standard of the average traffic.  Through the investigation, it was determined the source IP address is malicious.  I queried Splunk to check for previous activity to make sure the attacker was not successful in logging into an endpoint in the environment.  The query displayed a table of the activity and revealed the firewall blocked the attacker from entering the environment.
+The detection occurred on July 18, 2023, at 9:08 AM.  Splunk labeled the detection as Remote Desktop Network Bruteforce.  The rule that was triggered states this search looks for RDP application network traffic and filters any source/destination pair generating more than twice the standard of the average traffic.  Through the investigation, it was determined the source IP address is malicious.  I queried Splunk to check for previous activity to make sure the attacker was not successful in logging into an endpoint in the environment.  The query displayed a table of the activity and revealed the firewall blocked the attacker from entering the environment.
 
 <br />
 
-
 <h2>IP(s)</h2>
 The source IP is 80.xx.88.2xx and the destination IP is the company’s public IP address.  A threat actor is attempting to brute force the network through RDP.
-
 
 <h2>Ports </h2>
 
