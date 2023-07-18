@@ -34,7 +34,7 @@ VirusTotal <br/>
 abuseIPDB risk score: the confidence of abuse is 100%
 <p align="center">
 abuseIPDB <br/>
-<img src="https://imgur.com/kU9Mtam.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/AAiP4tx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />  
 
