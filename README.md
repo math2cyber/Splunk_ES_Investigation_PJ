@@ -38,7 +38,7 @@ abuseIPDB <br/>
 
 In the abuseIPDB reports, people labeled the source IP address as Bruteforce attack RDP server and port scanning. 
 <h2>Declaration</h2>
-The investigation lead to conclude this detection is a true positive non-issue or it is benign because the firewall blocked the traffic.  There is not recommendation at this time.
+The investigation concluded this detection is a true positive non-issue or it is benign because the firewall blocked the traffic.  There is no recommendation at this time.
 <!--
  ```diff
 - text in red
